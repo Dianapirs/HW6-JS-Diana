@@ -1,5 +1,5 @@
 //First
-console.log('First');
+/*console.log('First');
 let strFirst = 'aaa@bbb@ccc';
 console.log(strFirst.replace(/@/g, '!'));
 
@@ -62,4 +62,16 @@ function checkPhone(phone) {
     return resultEighth;
 }
 const phone = prompt('enter phone');
-console.log(checkPhone(phone));
+console.log(checkPhone(phone));*/
+
+//Ninth
+console.log('Ninth');
+function checkEmail(email) {
+    const regexNinth = RegExp(/^[^\d]\w{2,}[_-]?\w+@([a-z]{2,7}.[a-z]{2,5})$/g);
+    let resultNinth = regexNinth.test(email);
+      return resultNinth;
+  }
+  const email = prompt('enter email');
+  console.log(checkEmail(email));
+
+
