@@ -53,3 +53,13 @@ console.log(dateNow.getHours() + ':' + dateNow.getMinutes() + ':' + dateNow.getS
 console.log('Seveth');
 let strSeventh = 'aa aba abba abbba abca abea';
 console.log(strSeventh.match(/ab+a/g));
+
+//Eighth
+console.log('Eighth');
+function checkPhone(phone) {
+  const regexEighth = RegExp(/^\+?\d{1,3}([-(]{1})?\d{1,2}([-)]{1})?\d{5,12}/g);
+  let resultEighth = regexEighth.test(phone);
+    return resultEighth;
+}
+const phone = prompt('enter phone');
+console.log(checkPhone(phone));
