@@ -20,3 +20,12 @@ console.log(strThird.substr(6, 10));
 //slice
 console.log(strThird.substring(2, 5));
 console.log(strThird.substring(6, 16));
+
+//Forth
+console.log('Forth');
+let arrForth = [4, 2, 5, 19, 13, 0, 10];
+let sumForth = 0;
+for(a = 0; a < arrForth.length; a++) {
+    sumForth += Math.pow(arrForth[a], 3);
+}
+console.log(Math.sqrt(sumForth));
