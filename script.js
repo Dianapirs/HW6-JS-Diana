@@ -47,5 +47,9 @@ function getZero(d){
 		return d;
 	}
 }
-
 console.log(dateNow.getHours() + ':' + dateNow.getMinutes() + ':' + dateNow.getSeconds() + ' ' + getZero(dateNow.getDate()) + '.' + getZero(dateNow.getMonth() + 1) + '.' + dateNow.getFullYear());
+
+//Seventh
+console.log('Seveth');
+let strSeventh = 'aa aba abba abbba abca abea';
+console.log(strSeventh.match(/ab+a/g));
