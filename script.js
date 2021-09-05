@@ -36,3 +36,16 @@ let a = +prompt('Введите первое число'),
     b = +prompt('Введите второе число'),
     c = a - b;
 console.log(Math.abs(c));
+
+//Sixth
+console.log('Sixth');
+let dateNow = new Date();
+function getZero(d){
+	if (d > 0 && d < 10) { 
+		return '0' + d;
+	} else {
+		return d;
+	}
+}
+
+console.log(dateNow.getHours() + ':' + dateNow.getMinutes() + ':' + dateNow.getSeconds() + ' ' + getZero(dateNow.getDate()) + '.' + getZero(dateNow.getMonth() + 1) + '.' + dateNow.getFullYear());
