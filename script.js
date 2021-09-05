@@ -25,7 +25,14 @@ console.log(strThird.substring(6, 16));
 console.log('Forth');
 let arrForth = [4, 2, 5, 19, 13, 0, 10];
 let sumForth = 0;
-for(a = 0; a < arrForth.length; a++) {
-    sumForth += Math.pow(arrForth[a], 3);
+for(i = 0; i < arrForth.length; i++) {
+    sumForth += Math.pow(arrForth[i], 3);
 }
 console.log(Math.sqrt(sumForth));
+
+//Fifth
+console.log('Fifth');
+let a = +prompt('Введите первое число'),
+    b = +prompt('Введите второе число'),
+    c = a - b;
+console.log(Math.abs(c));
